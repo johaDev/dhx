@@ -18,7 +18,7 @@ namespace dhx.core
                 .UseStartup<Startup>()
                 .Build();
 
-            host.Run();
+            host.Run();   
         }
     }
 }
