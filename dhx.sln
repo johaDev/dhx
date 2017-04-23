@@ -1,9 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF6E6300-2192-41CC-8326-38334600E905}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dhxMetaInfo", "dhx.core\dhxMetaInfo\dhxMetaInfo.csproj", "{2D094466-B965-4439-868E-6D1BAC18BB99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dhx.core", "src\dhx.core\dhx.core.csproj", "{34A7DB24-2934-482B-BD50-961F72ED1364}"
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "dhx.core", "src\dhx.core\dhx.core.csproj", "{7D670C51-7DE0-4B1F-B9A7-E043295EEC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dhxMetaInfo.test", "dhx.core\dhxMetaInfo.test\dhxMetaInfo.test.csproj", "{D63668DE-0259-46E2-A03A-2A7E94BA77D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,9 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D094466-B965-4439-868E-6D1BAC18BB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D094466-B965-4439-868E-6D1BAC18BB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D094466-B965-4439-868E-6D1BAC18BB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D094466-B965-4439-868E-6D1BAC18BB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63668DE-0259-46E2-A03A-2A7E94BA77D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63668DE-0259-46E2-A03A-2A7E94BA77D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63668DE-0259-46E2-A03A-2A7E94BA77D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63668DE-0259-46E2-A03A-2A7E94BA77D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{34A7DB24-2934-482B-BD50-961F72ED1364} = {DF6E6300-2192-41CC-8326-38334600E905}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
@@ -42,10 +51,16 @@ Global
 		$3.NewLineForMembersInObjectInit = False
 		$3.NewLineForMembersInAnonymousTypes = False
 		$3.NewLineForClausesInQuery = False
+		$3.IndentSwitchSection = False
+		$3.SpacingAfterMethodDeclarationName = True
+		$3.SpaceAfterMethodCallName = True
+		$3.SpaceBeforeOpenSquareBracket = True
 		$0.TextStylePolicy = $4
 		$4.inheritsSet = VisualStudio
 		$4.inheritsScope = text/plain
 		$4.scope = text/plain
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
 		$0.StandardHeader = $5
 		$0.NameConventionPolicy = $6
 		$6.Rules = $7
