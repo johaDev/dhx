@@ -39,8 +39,8 @@
     <Compile Include="CodeModel\PropertyModel.cs" />
     <Compile Include="CodeModel\CodegenResult.cs" />
     <Compile Include="CodeModel\CodeFile.cs" />
-    <Compile Include="CodeModel\CodeModelBuilder.cs" />
     <Compile Include="CodeModel\CodeModel.cs" />
+    <Compile Include="codegen\EntityBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

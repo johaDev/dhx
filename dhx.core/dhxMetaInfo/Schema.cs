@@ -38,7 +38,7 @@ namespace dhxMetaInfo
 
     }
 
-    public class TypeElement
+    public class    TypeElement
     {
 
         public TypeElement ()

@@ -17,8 +17,17 @@ namespace dhxMetaInfo
             Classes = new List<ClassModel>();
         }
 
+        public string NameIdent {
+            get {
+                return this.Name.Replace( '/', '.' ).TrimStart( '.' );
+            }
+        }
+
     }
 
-    public class NamespaceModelMap : Dictionary<string, NamespaceModel> { }
+    public class NamespaceModelMap : Dictionary<string, NamespaceModel> { 
+    }
+    public class NamespaceList: List<NamespaceModel> { 
+    }
 
 }

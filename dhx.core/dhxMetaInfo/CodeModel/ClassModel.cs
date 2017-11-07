@@ -9,7 +9,7 @@ namespace dhxMetaInfo
     public class ClassModel
     {
         public string Name { get; set; }
-        public string InternalTypeName { get; set; }
+        public string InternalTypeName { get; set; }    
         public bool IsPublic { get; set; }
         public bool IsPartial { get; set; }
         public List<PropertyModel> Properties { get; set; }

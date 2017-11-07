@@ -36,14 +36,14 @@ namespace dhxMetaInfo.test
         ***/
 
         [Test]
-        public void CodeGenTest()
+        public void CodeModelImportTest()
         {
-            var cgb = new CodeModelBuilder ();
+            var cm = new CodeModel ();
 
             try {
                 var schemaList = GetSchemaList ();
                 Console.Write ("1");
-                cgb.ImportSchema (schemaList);
+                cm.ImportSchema (schemaList);
                 Console.Write ("2");
             } catch (Exception ex) {
                 Console.Write (ex.Message);
@@ -51,6 +51,27 @@ namespace dhxMetaInfo.test
             }
 
             Console.Write ("3");
+
+        }
+
+        [Test]
+        public void CodeGenTest() {
+
+            try {
+                var schemaList = GetSchemaList();
+                var cm = new CodeModel();
+                cm.ImportSchema( schemaList );
+
+                var eb = new EntityBuilder( cm );
+
+                var code = eb.CreateNameSpacesCode();
+     
+                Console.Write( code);
+            } catch (Exception ex) {
+                Console.Write( ex.Message );
+
+            }
+
 
         }
 
