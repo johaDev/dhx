@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D63668DE-0259-46E2-A03A-2A7E94BA77D5}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>dhxMetaInfo.test</RootNamespace>
-    <AssemblyName>dhxMetaInfo.test</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ProjectGuid>{D9F53C65-342A-448F-A511-1AB584D47FEA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>dhxCodeGen</RootNamespace>
+    <AssemblyName>dhxCodeGen</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -17,37 +17,27 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="nunit.framework">
-      <HintPath>..\..\packages\NUnit.3.6.1\lib\net45\nunit.framework.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tests.cs" />
-    <Compile Include="EmptyClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="data\schemaDefinitions.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="data\componentDefinitions.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="ClassTemplate.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\dhxMetaInfo\dhxMetaInfo.csproj">
+    <ProjectReference Include="..\dhx.core\dhxMetaInfo\dhxMetaInfo.csproj">
       <Project>{2D094466-B965-4439-868E-6D1BAC18BB99}</Project>
       <Name>dhxMetaInfo</Name>
     </ProjectReference>

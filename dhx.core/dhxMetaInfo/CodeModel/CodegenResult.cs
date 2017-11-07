@@ -1,11 +1,10 @@
 ﻿using System;
 namespace dhxMetaInfo
 {
-    public class SchemaReader
+    public class CodegenResult
     {
-        public SchemaReader()
+        public CodegenResult ()
         {
         }
-
     }
 }
