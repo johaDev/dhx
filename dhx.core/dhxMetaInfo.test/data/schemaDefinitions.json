@@ -4551,7 +4551,7 @@
                         "primitive": "Integer",
                         "defaultValue": null,
                         "mandatory": true,
-                        "decimals": -1,
+                        "decimals": -1, 
                         "length": -1,
                         "isResolved": true
                     },

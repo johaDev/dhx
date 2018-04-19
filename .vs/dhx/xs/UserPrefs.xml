@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{D63668DE-0259-46E2-A03A-2A7E94BA77D5}|Unit Tests" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.ItemProperties.dhxMetaInfo.test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="dhx.core/dhxMetaInfo/CodeModel/TypeModel.cs">
+    <Files>
+      <File FileName="dhx.core/dhxMetaInfo/CodeModel/CodeModel.cs" Line="89" Column="45" />
+      <File FileName="dhx.core/dhxMetaInfo/codegen/EntityBuilder.cs" Line="79" Column="51" />
+      <File FileName="dhx.core/dhxMetaInfo.test/Tests.cs" Line="69" Column="1" />
+      <File FileName="dhx.core/dhxMetaInfo/CodeModel/TypeModel.cs" Line="1" Column="1" />
+      <File FileName="dhx.core/dhxMetaInfo/Schema.cs" Line="1" Column="1" />
+      <File FileName="dhx.core/dhxMetaInfo.test/data/schemaDefinitions.json" Line="1" Column="1" />
+      <File FileName="dhx.core/dhxMetaInfo/CodeModel/ClassModel.cs" Line="9" Column="18" />
+      <File FileName="dhx.core/dhxMetaInfo/CodeModel/PropertyModel.cs" Line="12" Column="16" />
+      <File FileName="dhx.core/dhxMetaInfo/codegen/CodeTemplates.cs" Line="64" Column="10" />
+      <File FileName="dhx.core/dhxMetaInfo/CodeModel/NamespaceModel.cs" Line="20" Column="34" />
+      <File FileName="dhx.core/dhxMetaInfo/CodeModel/UsingModel.cs" Line="1" Column="1" />
+      <File FileName="GeneratedTest/GeneratedEntities.cs" Line="15" Column="10" />
+      <File FileName="dhx.core/dhxMetaInfo/CodeModel/TypeMap.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/josef/learn/dhx/dhx.core/dhxMetaInfo.test/Tests.cs" relfile="dhx.core/dhxMetaInfo.test/Tests.cs" line="61" column="1" />
+      <Breakpoint file="/Users/josef/learn/dhx/dhx.core/dhxMetaInfo.test/Tests.cs" relfile="dhx.core/dhxMetaInfo.test/Tests.cs" line="67" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="dhx.core/dhxMetaInfo.test/Tests.cs" line="32" offsetX="867" offsetY="725" expression="classes" liveUpdate="False" />
+    <Watch file="dhx.core/dhxMetaInfo.test/Tests.cs" line="42" offsetX="625" offsetY="1287" expression="Exception" liveUpdate="False" />
+    <Watch file="dhx.core/dhxMetaInfo.test/Tests.cs" line="44" offsetX="843" offsetY="1353" expression="ex.Message" liveUpdate="False" />
+    <Watch file="dhx.core/dhxMetaInfo.test/Tests.cs" line="44" offsetX="843" offsetY="1353" expression="ex.StackTrace" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.GeneratedTest FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -10,10 +10,16 @@ namespace dhxMetaInfo
         }
 
         public string TypeName() {
+            string name;
             if( te.isArray) {
-                return $"List<{ToDottedName(te.@base)}>";
+                name =  $"List<{ToDottedName(te.@base)}>";
+            } else {
+                name = te.primitive;
             }
-            return te.primitive;
+            if (!te.mandatory) {
+                name += "?"; // Nullable
+            }
+            return name;
         }
 
         private string ToDottedName( string name) {

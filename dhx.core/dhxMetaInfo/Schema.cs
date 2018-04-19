@@ -48,7 +48,7 @@ namespace dhxMetaInfo
         public String name { get; set; }
         public String @base { get; set; }
         public String code { get; set; }
-        public Boolean isArray { get; set; }
+        public Boolean isArray { get; set; }    
         public Dictionary<String, Object> annotations { get; set; }
         public String primitive { get; set; }
         public String defaultValue { get; set; }
